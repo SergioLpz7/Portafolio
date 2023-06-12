@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #201f1f;
+  color: white;
+}
+header {
+  display: grid;
+  place-items: center;
+  padding: 2.5em;
+  background-color: #ff1414;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav li {
+  margin-top: 2em;
+  padding: 1.1em 1.5em;
+}
+.nav .active{
+  color: #ff1414;
+}
+.nav li p {
+  width: 4em;
+  font-size: 1em;
+  cursor: pointer;
+}
+.datos {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.datos p {
+  width: 25%;
+  font-size: 1.2em;
+}
+.datos img{
+  width: auto;
+  border-radius: 10px;
+}
+.contenedor{
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+.proyectos {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2em;
+  width: 30%;
+}
+.lista-proyectos {
+  flex-flow: column wrap;
+  align-items: flex-start;
+  font-size: 2em;
+  list-style: none;
+
+}
+.lista-proyectos li {
+  cursor: pointer;
+}
+.lista-proyectos li:hover {
+  box-shadow: 0 3px 0 -1px red;
+}
+.lista-proyectos li.active {
+  box-shadow: 0 3px 0 -1px #ff1414;
+}
+img {
+  width: 500px;
+  height: 270px;
+}
+#temas {
+  align-items: center;
+  width: 60%;
+}
+#temas div {
+  width: 100%;
+  display: none;
+  place-items: center;
+}
+#temas div p {
+  width: 100%;
+  text-align: center;
+}
+.img {
+  display: flex!important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img img{
+  width: 50%;
+}

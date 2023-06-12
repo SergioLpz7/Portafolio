@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Portafolio Hardware 1º ASIX</h1></header>
+    <nav>
+      <ul class="nav">
+        <li class="active li"><p id="info">•</p></li>
+        <li class="li"><p id="proyects">Proyectos</p></li>
+      </ul>
+    </nav>
+    <div class="datos">
+      <p>
+        Hola, me llamo Sergi y soy estudiante de 1º de ASIX en San José Obrero y
+        estos son algunos de mis proyectos que he hecho en Hardware
+      </p>
+      <img src="img/yo.jpg" alt="Yo" />
+    </div>
+    <div class="contenedor">
+      <div class="proyectos">
+        <ul class="lista-proyectos" style="display: none">
+          <li onclick="MostrarTema(1)"><p>Unidades de medidas</p></li>
+          <li onclick="MostrarTema(2)"><p>HTTP</p></li>
+          <li onclick="MostrarTema(3)"><p>CPU</p></li>
+          <li onclick="MostrarTema(4)"><p>Memorias</p></li>
+          <li onclick="MostrarTema(5)"><p>Targeta Gráficas</p></li>
+          <li onclick="MostrarTema(6)"><p>Virtualización</p></li>
+          <li onclick="MostrarTema(7)"><p>Reparación de equipos</p></li>
+          <li onclick="MostrarTema(8)"><p>Desarrollo colaborativo</p></li>
+          <li onclick="MostrarTema(9)"><p>SAIS</p></li>
+          <li onclick="MostrarTema(10)"><p>Discos Duros</p></li>
+        </ul>
+      </div>
+      <div id="temas" style="display: none">
+        <div id="tema1">
+          <h1>Unidades de medidas:</h1>
+          <p>Aprendemos a usar unidades de medidas:</p>
+          <img src="img/image-7.jpg" />
+        </div>
+        <div id="tema2">
+          <h1>HTTP</h1>
+          <p>
+            Sabemos hacer llamadas de apis y buscar informacion entre ellas.
+            Principalmente usamos: Postman pero tambien usamos RapidApi
+          </p>
+          <div class="img">
+            <img src="img/postman.png" /><img src="img/RapidApi.png" />
+          </div>
+        </div>
+        <div id="tema3">
+          <h1>CPU</h1>
+          <p>
+            Hemos mirado tipos de CPU's y como mirar la calidad de ella y si
+            sale rentable por el precio
+          </p>
+          <img src="img/CPU.png" />
+        </div>
+        <div id="tema4">
+          <h1>Memorias</h1>
+          <p>
+            Hemos visto tarjetas de memoria RAM, como calcular su ancho de banda
+            y compararlas entre ellas para ver cual es la mejor
+          </p>
+          <img src="img/RAM.png" />
+        </div>
+        <div id="tema5">
+          <h1>Tarjetas Gráficas:</h1>
+          <p>
+            Sabemos como calcular por el ancho de bus, % de diferencia entre 2
+            (con el valor y la calidad)
+          </p>
+          <img src="img/grafica.png" alt="" />
+        </div>
+        <div id="tema6">
+          <h1>Virtualizaciones:</h1>
+          <p>
+            Sabemos usar herramientas muy utiles como docker que es una
+            plataforma de código abierto que permite la creación, distribución y
+            ejecución de aplicaciones en entornos virtualizados, llamados
+            contenedores, brindando una mayor portabilidad y eficiencia en el
+            despliegue de aplicaciones en diferentes sistemas operativos.
+          </p>
+          <img src="img/docker.jpg" />
+        </div>
+        <div id="tema7">
+          <h1>Reparación de equipos:</h1>
+          <p>Montamos y desmontamos un PC</p>
+          <img src="img/PC.jpg" />
+        </div>
+        <div id="tema8">
+          <h1>Desarrollo colaborativo:</h1>
+          <p>Sabemos usar git y subir Trabajos a gitHub (como esté mismo)</p>
+          <img src="img/git.png" />
+        </div>
+        <div id="tema9">
+          <h1>SAIS</h1>
+          <p>
+            Montamos un SAIS para un cyber con diferentes opciones para
+            distintos sueldos
+          </p>
+          <img src="img/SAIS.jpg" />
+        </div>
+        <div id="tema10">
+          <h1>Discos Duros</h1>
+          <p>
+            Hemos aprendido sobre todo sobre RAID's, una tecnología de
+            almacenamiento que combina múltiples discos para mejorar el
+            rendimiento y la redundancia de los datos, proporcionando mayor
+            velocidad de acceso y protección contra fallos de disco. Se utiliza
+            en sistemas de almacenamiento empresariales para garantizar la
+            disponibilidad y confiabilidad de los datos.
+          </p>
+          <img src="img/DD.png" />
+        </div>
+      </div>
+    </div>
+    <script src="main copy 2.js"></script>
+  </body>
+</html>
